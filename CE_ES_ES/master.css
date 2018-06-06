@@ -47,13 +47,53 @@ body main {
 body main .offerts {
   height: 450px;
   width: 30%;
-  background-color: #5ab0dd;
+  background-color: #f4f5f7;
   float: left;
   margin: 50px 0px 25px 45px;
 }
 body main .offerts .image {
-  background-color: aqua;
   height: 50%;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  top: 5%;
+}
+body main .offerts .image img {
+  height: 80%;
+  width: 75%;
+  object-fit: cover;
+  position: relative;
+  left: 12.5%;
+  top: 10%;
+}
+body main .offerts section {
+  width: 60%;
+  height: 40%;
+  position: relative;
+  top: 10%;
+  left: 5%;
+  text-align: left;
+  float: left;
+  border-right: 2px solid #f2df21;
+  border-bottom: 2px solid #f2df21;
+  border-radius: 10px;
+  background-color: white;
+}
+body main .offerts section p {
+  font-size: 21px;
+  font-family: 'Open Sans', sans-serif;
+}
+body main .offerts .price {
+  background-color: white;
+  height: 40%;
+  width: 30%;
+  float: left;
+  position: relative;
+  left: 5%;
+  top: 10%;
+  border-left: 2px solid #f2df21;
+  border-bottom: 2px solid #f2df21;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=master.css.map */
