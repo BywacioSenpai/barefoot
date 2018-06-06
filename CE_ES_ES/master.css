@@ -95,5 +95,10 @@ body main .offerts .price {
   border-bottom: 2px solid #f2df21;
   border-radius: 10px;
 }
+body main .offerts .price p {
+  font-size: 21px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
 
 /*# sourceMappingURL=master.css.map */
