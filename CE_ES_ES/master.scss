@@ -1,0 +1,60 @@
+$firsttcolor: #f2df21;
+$secondcolor: #5ab0dd;
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    height: 2100px;
+    .above{
+        height: 300px;
+        background-color: rebeccapurple;
+    }
+    .banner{
+        height: 400px;
+        background-image: url(../images/background-banner.jpg);
+        background-size: cover;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        .welcome{
+            width: 30%;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            top: 30%;
+            h1{
+                text-align: center;
+                font-family: 'Pacifico', cursive;
+                font-size: 36px;
+            }
+        }
+    }
+    nav{
+        height: 1100px;
+        width: 300px;
+        position: absolute;
+        top: 700px;
+        background-color: indianred;
+    }
+    main{
+        height: 1100px;
+        position: absolute;
+        top: 700px;
+        background-color: pink;
+        .offerts{
+            height: 450px;
+            width: 30%;
+            background-color: $secondcolor;
+            float: left;
+            margin: 50px 0px 25px 45px;
+            .image{
+                background-color: aqua;
+                height: 50%;
+            }
+        }
+    }
+}
